@@ -1,33 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int days;
-    scanf("%d", &days);
-    switch(days)
-    {
-        case 1:
-        printf("Monday");
-        break;
-        case 2:
-        printf("Tuesday");
-        break;
-        case 3:
-        printf("Wednesday");
-        break;
-        case 4 :
-        printf("Thursday");
-        break;
-        case 5 :
-        printf("Friday");
-        break;
-        case 6:
-        printf("Saturday");
-        break;
-        case 7:
-        printf("Sunday");
-        break;
-        default:
-        printf("no day found");
-
-    }
+int age;
+printf("enter your age"); scanf("%d", &age);
+if(age>=18){
+    printf("you are eligible to vote");
+}
+else
+{
+    printf("your are not eligible to vote");
+}
 }
